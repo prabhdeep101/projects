@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    border: border-box;
+}
+
+.rest-of-website{
+    background-color: #DFE8E7;
+    height: 100%;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/************* Element 1 **********/
+
+.nav-logo{
+     height: 50px;
+    width: 100px;
+} 
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+.border{ 
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/*********Element 2 ***************/
+.add-deliverto{
+    font-size: 0.875rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-place{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+
+/***************Element 3 ************************/
+
+.nav-search{
+    display: flex;
+    width: 550px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(235, 166, 75);
+    border-radius: 7px;
+}
+
+
+.search-select{
+    background-color: #E6E6E6;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #0f1111;
+    background-color: rgb(254,189,105);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.search-icon:hover{
+    background-color: rgb(235, 166, 75)
+}
+
+/* **********4th and 5th element***************** */
+
+span{
+    font-size: 0.75rem;
+
+}
+
+.nav-bold{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+/* **************6th element(cart)**************** */
+
+.nav-cart i{
+    font-size: 1.7rem;
+}
+
+.nav-cart{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+
+/* *********end of navbar*************** */
+
+/* *************panel******************** */
+
+.panel{
+    display: flex;
+    color: white;
+    background-color: #222f3d;
+    height: 39px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.open-menu i{
+    font-size: 1rem;
+    
+}
+
+.open-menu{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.panel-items{
+    width: 70%;
+}
+
+
+
+.panel-items p{
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.875rem;
+}
+
+.free-shipping{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+/* *****************End of header*************8 */
+
+/* ****************hero-section*********************/
+
+.hero-section{
+    background-image: url(hero-img-nz.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-size: 0.875rem;
+    margin-bottom: 35px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+.hero-msg a:hover{
+    color: #041383
+}
+
+
+/* ****************end of hero section****************/
+
+/* ******************shop-section******************* */
+
+.shop-section{
+    height: 56rem;
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.box h2{
+    font-size: 1.2rem;
+    max-width: 240px;
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
+.box-img{
+    height: 300px;
+    width: 240px;
+    background-size: cover;
+    position: relative;
+    margin-top: 1rem;
+    
+}
+.box p{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    display: inline-block;
+    position: absolute;
+    color: #007185;
+}
+
+.box-content{
+   margin-bottom: 1.5rem;
+    
+}
+
+
+
+/* *********************Footer************************** */
+
+footer{
+    margin-top: 1rem; 
+    height: 30rem;
+
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    line-height: 19px;
+    padding:15px 0px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height:20rem;
+    font-size: 1rem;
+}
+
+ul{
+    margin-top: 3rem;
+}
+
+ul p{
+    font-weight: 600;
+}
+
+ul a{
+    display: block;
+    font-size: 0.875rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    height: 4.4rem;
+    border-top: 0.5px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel3 .logo{
+    width: 6rem;
+}
+
+
+.foot-panel4{
+    background-color: #131B23;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+
+}
+
+.pages{
+    padding-top:1.7rem;
+}
+
+.pages a{
+    margin-right: 1.3rem;
+}
+.copyright-statement{
+    padding-top: 0.65rem;
+}
